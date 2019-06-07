@@ -6,10 +6,10 @@ let phrase = new Phrase(string);
 
 if(phrase.palindrome())
 {
-  alert('"${phrase.content}" is a palindrome');
+  alert(`"${phrase.content}" is a palindrome`);
 }
 else
 {
-  alert('"${phrase.content}')
+  alert(`"${phrase.content}"`)
 }
 alert(new Phrase("Madam, I'm Adam.").palindrome());
